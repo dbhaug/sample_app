@@ -32,7 +32,7 @@ def make_microposts
 	end
 end
 
-def make_relationshipds
+def make_relationships
 	users= User.all
 	user=users.first
 	followed_users=users[2..50]
